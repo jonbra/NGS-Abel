@@ -12,4 +12,4 @@ module purge   # clear any inherited modules
 set -o errexit # exit on errors
 
 # Needs to have a user installation of signalp
-perl ~/signalp-4.1/signalp -f short -n signalp.out ../trinity/Trinity.longest.isoform.cut.fasta.transdecoder_dir/longest_orfs.pep
+perl ~/programs/signalp-4.1/signalp -f short -n signalp.out ../trinity/Trinity.longest.isoform.cut.fasta.transdecoder_dir/longest_orfs.pep
